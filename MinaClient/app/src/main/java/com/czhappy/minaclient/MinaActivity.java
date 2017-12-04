@@ -18,7 +18,7 @@ import android.widget.Toast;
  * Date: 2016/12/9 0009
  * Time: 18:01
  */
-public class MinaTestActivity extends AppCompatActivity implements View.OnClickListener{
+public class MinaActivity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView start_service_tv, send_tv, receive_tv;
 
@@ -27,7 +27,7 @@ public class MinaTestActivity extends AppCompatActivity implements View.OnClickL
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mina_test);
+        setContentView(R.layout.activity_mina);
 
         initView();
         registerBroadcast();
